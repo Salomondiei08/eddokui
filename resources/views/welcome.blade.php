@@ -142,7 +142,7 @@
             <div class="row counters">
                 <div class="text-center col-lg-4 col-6">
                     <span data-purecounter-start="0" data-purecounter-end="1232" data-purecounter-duration="1" class="purecounter"></span>
-                    <p>Notre d'enfants</p>
+                    <p>Nombre d'enfants</p>
                 </div>
 
                 <div class="text-center col-lg-4 col-6">

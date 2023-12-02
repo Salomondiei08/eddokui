@@ -95,9 +95,12 @@
                         <div class="col-lg-4 col-md-6 footer-links">
                             <h4>Les liens</h4>
                             <ul>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Accueil</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Nous concernant</a></li>
-                                <li><i class="bx bx-chevron-right"></i> <a href="#">Faire un récencement</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="{{ route('welcome') }}">Accueil</a></li>
+                                <li><i class="bx bx-chevron-right"></i> <a href="{{ route('about') }}">Nous concernant</a></li>
+                                <li><i class="bx bx-chevron-right"></i><a href="{{route('contacts')}}">Contactez-nous</a></li>
+                                @auth
+                                <li><i class="bx bx-chevron-right"></i><a href="{{ route('student') }}">Faire un récencement</a></li>
+                                @endauth
                             </ul>
                         </div>
 
@@ -126,7 +129,7 @@
                 </div>
                 <div class="pt-3 text-center social-links text-md-right pt-md-0">
                     <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
-                    <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+                    <a href="https://www.facebook.com/EDDOKUI1?mibextid=2JQ9oc" class="facebook"><i class="bx bxl-facebook"></i></a>
                     <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
                     <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
                     <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
