@@ -146,12 +146,12 @@
                 </div>
 
                 <div class="text-center col-lg-4 col-6">
-                    <span data-purecounter-start="0" data-purecounter-end="64" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="65" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Moniteurs</p>
                 </div>
 
                 <div class="text-center col-lg-4 col-6">
-                    <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" class="purecounter"></span>
+                    <span data-purecounter-start="0" data-purecounter-end="9" data-purecounter-duration="1" class="purecounter"></span>
                     <p>Classes</p>
                 </div>
             </div>
