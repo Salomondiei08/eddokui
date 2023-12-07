@@ -14,8 +14,8 @@ class CreateStudent extends CreateRecord
         return static::$title ?? __('Ajouter un enfant ');
     }
 
-    protected function getRedirectUrl(): string
+   /*  protected function getRedirectUrl(): string
     {
         return $this->getResource()::getUrl('list', ['record' => $this->record]);
-    }
+    } */
 }

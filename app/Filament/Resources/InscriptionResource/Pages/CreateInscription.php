@@ -9,4 +9,8 @@ use Filament\Resources\Pages\CreateRecord;
 class CreateInscription extends CreateRecord
 {
     protected static string $resource = InscriptionResource::class;
+    protected function getTitle(): string
+    {
+        return static::$title ?? __('Faire une insription ');
+    }
 }
