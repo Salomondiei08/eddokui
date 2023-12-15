@@ -26,7 +26,7 @@ class EditStudent extends EditRecord
 
     protected function getTitle(): string
     {
-        return static::$title ?? __('Modifier l\'individu : '.$this->record->last_name .$this->record->first_name);
+        return static::$title ?? __('Modifier l\'individu : '.$this->record->all_name);
     }
     protected function getBreadcrumbs(): array
     {

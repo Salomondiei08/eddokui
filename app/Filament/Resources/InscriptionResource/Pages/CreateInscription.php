@@ -13,4 +13,9 @@ class CreateInscription extends CreateRecord
     {
         return static::$title ?? __('Faire une insription ');
     }
+
+    protected function getRedirectUrl(): string
+    {
+        return $this->getResource()::getUrl('index');
+    }
 }

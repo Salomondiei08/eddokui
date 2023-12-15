@@ -1,6 +1,6 @@
 <div>
       <!-- ======= Hero Section ======= -->
-    <section id="hero" class="d-flex justify-content-center align-items-center">
+    <section id="hero" class="d-flex justify-content-center align-items-center" style="background: url({{ asset('assets/img/edback.jpg') }}) top center; background-size: cover; width: 100%; height: 80vh; position: relative;">
         <div class="container position-relative" data-aos="zoom-in" data-aos-delay="100">
             <h1>
                 Ecole Du Dimanche<br />

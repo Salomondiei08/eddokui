@@ -19,7 +19,7 @@ class ViewStudent extends ViewRecord
     }
     protected function getTitle(): string
     {
-        return static::$title ?? __('Détails sur l\'individu : '.$this->record->last_name .$this->record->first_name);
+        return static::$title ?? __('Détails sur l\'individu : '.$this->record->all_name);
     }
 
     protected function getBreadcrumbs(): array

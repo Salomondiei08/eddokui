@@ -13,9 +13,8 @@ class CreateUser extends CreateRecord
     {
         return static::$title ?? __('Ajouter un moniteur ');
     }
-
-   /*  protected function getRedirectUrl(): string
+    protected function getRedirectUrl(): string
     {
-        return $this->getResource()::getUrl('list', ['record' => $this->record]);
-    } */
+        return $this->getResource()::getUrl('index');
+    }
 }
